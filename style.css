@@ -1,0 +1,187 @@
+body{
+margin: 0px;
+background: linear-gradient( 171.8deg,  rgba(85,88,91,255) 13.5%, rgb(209, 211, 211) 78.6% ); 
+background-attachment: fixed;
+}
+.heading{
+display: flex;
+justify-content: center;
+padding: 20px;
+margin: auto;
+margin: 0px;
+}
+
+h1{
+font-size: 35px;
+text-shadow: 1px 1px 0 #05c1f0c4;
+color: rgb(237, 241, 243);
+} 
+
+h3{
+text-align: center;
+color:  rgb(240, 234, 234);
+text-shadow: 1px 2px 1px #b80c37;
+font-size: 45px;
+}
+.phrase, p, span,  #noDiscount{
+  color: rgb(255, 255, 255); 
+  text-transform: none;
+  font-size: 35px;
+}
+#discount{
+ font-size: 45px;
+ text-shadow: 3px 3px 0 #dd3207c4;
+ font-weight: 600;
+ text-align: center;
+
+}
+.all{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+ 
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  background: linear-gradient( 171.8deg, rgba(36,38,39,255) 13.5%, rgb(77, 79, 80) 78.6% );
+  padding: 10px;
+  box-shadow:   1px 1px 4px rgba(199, 199, 183, 0.5);
+  border-radius: 50px;
+
+}
+
+form{
+  display: flex;
+ flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 40px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+   margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px; 
+  background: linear-gradient( 171.8deg,  rgba(85,88,91,255) 13.5%, rgb(100, 102, 102) 78.6% ); 
+  box-shadow: inset 0 1px 12px 8px  rgba(56, 56, 56, 0.4);
+  
+
+}
+
+.discountOn, .discountOff{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+ .discountInput{
+
+ text-align: center;
+ align-self: center;
+ margin-top: 10px;
+
+  
+} 
+input{
+  width: 90px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 25px;
+   border: none;
+  background-color: rgb(51, 50, 50); 
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.buttonPrice{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  padding: 10px;
+  width: 500px;
+  
+}
+
+.btn{
+
+  padding: 15px;
+  width: 80px;
+  border-radius: 25px;
+  color: white;
+  font-size: 30px;
+  margin: 15px;
+  box-shadow:  1px 2px 1px 1px rgba(97, 97, 96, 0.993);
+  border: none;
+  cursor: pointer;
+  transition: #db0ca7 0.3s ease;
+
+} 
+.btn:hover{
+  background-color:#e211b5c9;
+}
+
+
+
+.green { 
+  background-color: #008000; 
+}
+.orange{
+  background-color: orange;
+}
+.blue{ 
+  background-color: #0000ff; 
+}
+.red{ 
+  background-color: #ff0000; 
+}
+.violet{ 
+  background-color: #8a2be2; 
+}
+
+
+
+@media all and (max-width: 500px) {
+  h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  h3{
+    font-size: 30px;
+  }
+  .phrase, p, span{
+    font-size: 20px;
+  }
+
+  .buttonPrice {
+   padding: 10px;
+    width:370px;
+}
+  .btn{
+    width: 70px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 7px;
+  }
+  .container{
+    margin-top: 5px;
+  }
+  
+  form{
+
+    padding-top: 10px;
+    margin-top: 10px;
+
+  
+  }
+}
+
+
+
+
+
+
+
+
